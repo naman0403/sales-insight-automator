@@ -13,7 +13,7 @@ const formData = new FormData()
 formData.append("file",file)
 formData.append("email",email)
 
-await axios.post("http://localhost:5000/api/analyze",formData)
+await axios.post("https://sales-insight-automator-6cob.onrender.com",formData)
 
 alert("Summary Sent")
 }
